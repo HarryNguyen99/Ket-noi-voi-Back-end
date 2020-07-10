@@ -8,13 +8,15 @@ import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import {ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlogComponent,
     BlogEditComponent,
-    BlogDetailComponent
+    BlogDetailComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
